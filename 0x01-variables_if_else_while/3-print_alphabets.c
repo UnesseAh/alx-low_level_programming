@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description : "A to Z in lowercase and uppercase"
+ * Description : "A to Z lower to upper"
  * Return: Always 0 (Success)
  */
 
@@ -17,11 +17,10 @@ int main(void)
 		n++;
 	}
 	n = 'A';
-
 	while (n <= 'Z')
 	{
-	    putchar(n);
-	    n++;
+		putchar(n);
+		n++;
 	}
 	putchar('\n');
 	return (0);
