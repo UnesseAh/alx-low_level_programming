@@ -14,8 +14,13 @@ int main(void)
 	while (n <= 'z')
 	{
 		putchar(n);
-		putchar(n - 32);
 		n++;
+	}
+	n = 'A';
+	while (n <= 'Z')
+	{
+	    putchar(n);
+	    n++;
 	}
 	putchar('\n');
 	return (0);
